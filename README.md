@@ -1,6 +1,6 @@
 # Alchemy Sepolia Faucet Automation
 
-A Node.js script to automate requesting ETH from the Alchemy Sepolia faucet using Puppeteer and 2captcha.
+A Node.js solution for automating ETH requests from the Alchemy Sepolia faucet using Puppeteer for browser automation and 2Captcha for CAPTCHA solving.
 
 ## Prerequisites
 
@@ -13,13 +13,13 @@ A Node.js script to automate requesting ETH from the Alchemy Sepolia faucet usin
 
 1. Clone the repository
 
-1. Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-1. Create a `.env` file in the root directory with the following variables:
+3. Create a `.env` file in the root directory with the following variables:
 
 ```env
 ALCHEMY_EMAIL=your_alchemy_email
